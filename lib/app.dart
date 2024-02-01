@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
+import 'package:sesizz_sehir/view/home_view.dart';
 
-import 'view/home_view.dart';
+import 'view/login_view.dart';
 
 class MyApp extends StatelessWidget {
   const MyApp({super.key});
@@ -29,7 +30,7 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,
       ),
-      home: const Anasayfa(),
+      home: const HomeView(),
     );
   }
 }
