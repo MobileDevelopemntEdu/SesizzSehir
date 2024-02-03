@@ -5,8 +5,20 @@ class HomeView extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return const Scaffold(
-
+    
+    return  SafeArea(
+      child: Scaffold(
+        body: Padding(
+          padding: EdgeInsets.all(16.0),
+          child: Column(
+              children : [
+                Icon(Icons.notifications_none_outlined,size: 33,),
+              ],
+          ),
+      
+        ),
+      ),
     );
+
   }
 }
